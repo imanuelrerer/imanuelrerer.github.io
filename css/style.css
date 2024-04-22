@@ -1,0 +1,265 @@
+#slide {
+    height: 100vh;
+    position: fixed;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+}
+
+#slide.close-invitation {
+    z-index: 100;
+}
+
+#slide.open-invitation {
+    z-index: 4;
+}
+
+.carousel {
+    z-index: 1;
+    position: relative;
+}
+
+#slide .carousel-item img {
+    object-fit: cover;
+    height: 100vh;
+}
+
+.slide-overlay {
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    top:0px;
+    bottom:0px;
+    right: 0px;
+    left: 0px;
+    z-index: 5;
+}
+
+.slide-content {
+    display: flex;
+    flex-direction: column-reverse;
+    position: absolute;
+    top:0px;
+    bottom:0px;
+    right: 0px;
+    left: 0px;
+    z-index: 10;
+}
+
+.slide-content .top-content {
+    flex-grow: 1;
+}
+
+.slide-content .bottom-content {
+    height: 225px;
+}
+
+.title-1 {
+    font-family: "Licorice", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+}
+
+.title-1-sm {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2rem;
+}
+
+.title-2-sm {
+    font-family: "Rosarivo", cursive;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.title-3-sm {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 100;
+}
+
+.title-2-lg {
+    font-family: "Rosarivo", cursive;
+    font-size: 2.5rem;
+    
+}
+
+.title-name {
+    font-family: "Rosarivo", cursive;
+    font-size: 1.5rem;
+    letter-spacing: 1rem;
+}
+
+
+.title-and {
+    font-family: "Licorice", cursive;
+    font-size: 1.5rem;
+}
+
+.font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.invitation-to {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.4rem;
+}
+
+.invitation-name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    font-weight: lighter;
+}
+
+#content {
+    min-height: 100vh;
+    margin-top: 100vh;
+    position:relative;
+    z-index: 5;
+    scroll-snap-type: y mandatory;
+}
+
+#content .child {
+    scroll-snap-align: start;
+}
+
+#content-verse {
+    min-height: 100vh;
+}
+
+#content-verse > div {
+    flex-grow: 1;
+}
+
+.image-verse-1 {
+    width: 100%;
+    max-width: 500px;
+    /* border: 10px solid #fff; */
+    /* transform: rotate(4deg); */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.text-verse-1 {
+    font-family: "Rosarivo", cursive;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #333;
+}
+
+#content-detail .icon {
+    font-size: 3rem;
+}
+
+#form-rsvp {
+    
+}
+
+.bg-color-1 {
+    background: #8ecae6;
+}
+
+.bg-color-2 {
+    background: #219ebc;
+}
+
+.bg-color-3 {
+    background: #023047;
+}
+
+.bg-color-4 {
+    background: #ffb703;
+}
+
+.bg-color-5 {
+    background: #fb8500;
+}
+
+.text-color-1 {
+    background: #8ecae6;
+}
+
+.text-color-2 {
+    background: #219ebc;
+}
+
+.text-color-3 {
+    background: #023047;
+}
+
+.text-color-4 {
+    background: #ffb703;
+}
+
+.text-color-5 {
+    background: #fb8500;
+}
+
+.fc-1 {
+    color: #333;
+}
+
+#content-detail {
+    position: relative;
+    z-index: 4;
+    margin-top: -100vh;
+}
+
+#hidden-background {
+    background: url("../assets/background-name-2.png") center center;
+    background-size: cover;
+    min-height: 100vh;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+.overlay {
+    position: absolute;
+
+}
+
+#content-name {
+    position:relative;
+    z-index: 4;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#content-photo {
+    position:relative;
+    z-index: 4;
+    min-height: 100vh;
+}
+
+#form-rsvp-container {
+    position: relative;
+    z-index: 4;
+}
+
+#form-wish-container {
+    position: relative;
+    z-index: 4;
+    min-height: 100vh;
+    background-color: rgba(255,255,255,0.5);
+}
+
+#color-tone > div {
+    height:30px;
+}
+
+.wish-wrapper {
+    overflow-y: scroll;
+    max-height: 150px;
+}
+
+.wish-item .wish-text {
+    margin: 0px;
+    color: #333;
+    font-size: 0.9rem;
+}
+
+.wish-item .wish-from {
+    margin: 0px;
+    color: #333;
+    font-size: 0.8rem;
+}
