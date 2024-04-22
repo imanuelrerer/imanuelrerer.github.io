@@ -1,9 +1,7 @@
 $(function() {
-    // const baseInviteUrl = "https://script.google.com/macros/s/AKfycbxBR8b-Hj2AeP2ClfSLPbEMqhRwcsZHU4CCxhGZkk8d59bEVo9Z1OuLOnUsGTXd6Adw/exec";
     const baseInviteUrl = "https://script.google.com/macros/s/AKfycbx2B85zsS-ET0TyrH2EppwigrL1vTQmuF3th0UxS_9k6vew_0l8WCM2xg8LQqj9PEzK/exec";
 
-    // const baseWishUrl = "https://script.google.com/macros/s/AKfycbyHy9UrNxJ-pkDYRNvrVIPatQ1ElVXRdZX_ly-NuNCk12UfpyRYPnEQ5QQV8nDi2nS42g/exec";
-    const baseWishUrl = "https://script.google.com/macros/s/AKfycbxdClzhPAkG27Zn8Z7tfV-89pYStYiR2NSMTKlPGeJccPZFUHwjMx6d7-dq8oq_9h4v/exec";
+    const baseWishUrl = "https://script.google.com/macros/s/AKfycbzcXYLnZlbjzTpiwiK3krx9sQeqpI_Abm3KCBH3axKw7ePlFUajAK1VcOLTXhdme9mD/exec";
 
     const arrWish = [];
     const urlParams = new URLSearchParams(window.location.search);
